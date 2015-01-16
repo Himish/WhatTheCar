@@ -1,0 +1,33 @@
+.car-type {
+	display: inline-block;
+	width: 55px;
+	margin-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 3px;
+	color: #fff;
+	font-family: Arial;
+	font-weight: 600;
+	text-align: center;
+}
+#crusher {
+	background-color: #2f2f2f;
+}
+#heist {
+	background-color: #c50f0f;
+}
+#oc {
+	background-color: #eb901b;
+}
+#oc-moc {
+	background-color: #2ba480;
+}
+#moc {
+	background-color: #3c47af;
+}
+#race {
+	background-color: #90649b;
+}
+#raid {
+	background-color: #36a91f;
+}
