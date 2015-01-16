@@ -43,7 +43,6 @@ if (document.getElementById('game_container') !== null) {
     }     
 }
 
-//OROSPU ÇOCUĞU OMERTA BEYOND
 function addButtons(){
     $("#game_container").find('input[value=SH-cars]').after(' | <select class="type-select"><option value="0" disabled selected style="display:none;">Type</option><option value="1">Crusher</option><option value="2">Heist</option><option value="3">OC</option><option value="4">OC/MOC</option><option value="5">MOC</option><option value="6">Race</option><option value="7">Raid</option></select> | ');
     $('.type-select').change(function() {
@@ -68,11 +67,9 @@ function addButtons(){
             if($(this).find(':selected').val()== 7)
                 selectType("Raid");
     });
-
 }
 
 function categorizeCars(){
-
 	$('tr.thinline').each(function() {
 		var carId = $(this).find('a').attr('href').split("=")[1];
 		var type = findType(carId);
