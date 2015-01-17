@@ -21,17 +21,17 @@
 .car-type:hover {
 	cursor: pointer;
 }
-#wtc-crusher {
+.wtc-crusher {
 	background-color: #2f2f2f;
 }
-#wtc-heist {
+.wtc-heist {
 	background-color: #c50f0f;
 }
-#wtc-oc-moc {
+.wtc-oc-moc {
 	background-color: #3c47af;
 }
-#wtc-race {
+.wtc-race {
 	background-color: #eb901b;
 }
-#wtc-raid {
+.wtc-raid {
 	background-color: #36a91f;
