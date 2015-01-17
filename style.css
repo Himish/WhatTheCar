@@ -18,6 +18,9 @@
 	-ms-transform: translateY(1px);
 	transform: translateY(1px);
 }
+.car-type:hover {
+	cursor: pointer;
+}
 #wtc-crusher {
 	background-color: #2f2f2f;
 }
@@ -32,5 +35,3 @@
 }
 #wtc-raid {
 	background-color: #36a91f;
-}
-
