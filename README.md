@@ -13,10 +13,11 @@ Others might be added in the future.
 * Opera - [Tempermonkey](https://addons.opera.com/en/extensions/details/tampermonkey-beta/)
 
 ##Installation
-&nbsp;&nbsp;&nbsp;[![Install](install.png)](https://raw.githubusercontent.com/Himish/WhatTheCar/master/WhatTheCar.user.js)
+&nbsp;&nbsp;&nbsp;[![Install](https://raw.githubusercontent.com/Himish/WhatTheCar/master/images/install.png)](https://raw.githubusercontent.com/Himish/WhatTheCar/master/WhatTheCar.user.js)
 
 ##Features
 * WhatTheCar comes with predefined car types
+
 ![Car List](http://i.imgur.com/2rRxabi.jpg)
 
 
@@ -29,6 +30,7 @@ Others might be added in the future.
 
 
 * Select cars by their types.
+
 ![Select Types](http://i.imgur.com/ziirz5K.gif)
 
 
