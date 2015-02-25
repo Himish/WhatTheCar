@@ -22,10 +22,12 @@ Others might be added in the future.
 
 
 * Click on the ribbons to change the car types to your liking.
+
 ![Type Changer](http://i.imgur.com/w9IM6UW.gif)
 
 
 * To reset the types to it's original values click on the **Reset Types** button.
+
 ![Reset Types](http://i.imgur.com/Jz0zKIc.gif)
 
 
