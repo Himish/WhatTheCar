@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name            WhatTheCar
-// @version         1.0.1
+// @version         1.0.2
 // @description     Garage Organizer
 // @author          Himish
 // @author          Kalabunga
@@ -83,23 +83,23 @@ function addButtons(){
     $("#game_container").on('click', '.car-type',function() {
         
         if($(this).hasClass("wtc-crusher")){  
-            changeType($(this).parent().find('a').attr('href').split("=")[1], "Heist");
+            changeType($(this).parent().find('a').attr('data-href').split("=")[1], "Heist");
             
         }
         else if($(this).hasClass("wtc-heist")){
-            changeType($(this).parent().find('a').attr('href').split("=")[1], "OC/MOC");
+            changeType($(this).parent().find('a').attr('data-href').split("=")[1], "OC/MOC");
             
         }
         else if($(this).hasClass("wtc-oc-moc")){
-            changeType($(this).parent().find('a').attr('href').split("=")[1], "Race");
+            changeType($(this).parent().find('a').attr('data-href').split("=")[1], "Race");
             
         }
         else if($(this).hasClass("wtc-race")){
-            changeType($(this).parent().find('a').attr('href').split("=")[1], "Raid");
+            changeType($(this).parent().find('a').attr('data-href').split("=")[1], "Raid");
             
         }
         else if($(this).hasClass("wtc-raid")){
-            changeType($(this).parent().find('a').attr('href').split("=")[1], "Crusher");
+            changeType($(this).parent().find('a').attr('data-href').split("=")[1], "Crusher");
             
         }
         $(this).parent().parent().find('input[type="checkbox"]').prop('checked', !$(this).parent().parent().find('input[type="checkbox"]').prop('checked'));
@@ -110,7 +110,7 @@ function addButtons(){
 function categorizeCars(){
     $('tr.thinline').each(function() {
         $(this).find(".car-type").remove();
-        var carId = $(this).find('a').attr('href').split("=")[1];
+        var carId = $(this).find('a').attr('data-href').split("=")[1];
         var type = findType(carId);
         var carName =  $(this).find('a').text();
         if (type){
